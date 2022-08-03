@@ -1,0 +1,8 @@
+<h2>All Groups</h2>
+<ul id="list-group">
+    {{#each groups}}
+    <li><span>{{location}}</span> at <span class="countdown" data-src="{{getTime time}}"></span><button
+            type="button">+</button>
+    </li>
+    {{/each}}
+</ul>
